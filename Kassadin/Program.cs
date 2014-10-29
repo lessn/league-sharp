@@ -103,7 +103,7 @@ namespace Kassadin
 
         private static void Game_OnGameUpdate(EventArgs args)
         {
-            Orbwalker.SetAttacks(true);
+            Orbwalker.SetAttack(true);
             if (DM.Item("ComboActive").GetValue<KeyBind>().Active)
             {
                 Combo();
